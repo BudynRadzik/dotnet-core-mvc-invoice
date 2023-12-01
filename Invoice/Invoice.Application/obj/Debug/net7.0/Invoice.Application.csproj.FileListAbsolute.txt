@@ -1,0 +1,15 @@
+C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice.Application\bin\Debug\net7.0\Invoice.Application.deps.json
+C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice.Application\bin\Debug\net7.0\Invoice.Application.dll
+C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice.Application\bin\Debug\net7.0\Invoice.Application.pdb
+C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice.Application\bin\Debug\net7.0\Invoice.Domain.dll
+C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice.Application\bin\Debug\net7.0\Invoice.Domain.pdb
+C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice.Application\obj\Debug\net7.0\Invoice.Application.csproj.AssemblyReference.cache
+C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice.Application\obj\Debug\net7.0\Invoice.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice.Application\obj\Debug\net7.0\Invoice.Application.AssemblyInfoInputs.cache
+C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice.Application\obj\Debug\net7.0\Invoice.Application.AssemblyInfo.cs
+C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice.Application\obj\Debug\net7.0\Invoice.Application.csproj.CoreCompileInputs.cache
+C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice.Application\obj\Debug\net7.0\Invoice.Application.csproj.CopyComplete
+C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice.Application\obj\Debug\net7.0\Invoice.Application.dll
+C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice.Application\obj\Debug\net7.0\refint\Invoice.Application.dll
+C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice.Application\obj\Debug\net7.0\Invoice.Application.pdb
+C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice.Application\obj\Debug\net7.0\ref\Invoice.Application.dll

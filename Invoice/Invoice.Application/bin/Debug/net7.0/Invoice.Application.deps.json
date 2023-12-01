@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Invoice.Application/1.0.0": {
+        "dependencies": {
+          "Invoice.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Invoice.Application.dll": {}
+        }
+      },
+      "Invoice.Domain/1.0.0": {
+        "runtime": {
+          "Invoice.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Invoice.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Invoice.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
