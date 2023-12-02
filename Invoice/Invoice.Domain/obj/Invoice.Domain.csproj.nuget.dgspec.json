@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Janusz Soft\\Desktop\\Invoice\\Invoice\\Invoice.Domain\\Invoice.Domain.csproj": {}
+    "C:\\Repositories\\dotnet-core-mvc-invoice\\Invoice\\Invoice.Domain\\Invoice.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Janusz Soft\\Desktop\\Invoice\\Invoice\\Invoice.Domain\\Invoice.Domain.csproj": {
+    "C:\\Repositories\\dotnet-core-mvc-invoice\\Invoice\\Invoice.Domain\\Invoice.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Janusz Soft\\Desktop\\Invoice\\Invoice\\Invoice.Domain\\Invoice.Domain.csproj",
+        "projectUniqueName": "C:\\Repositories\\dotnet-core-mvc-invoice\\Invoice\\Invoice.Domain\\Invoice.Domain.csproj",
         "projectName": "Invoice.Domain",
-        "projectPath": "C:\\Users\\Janusz Soft\\Desktop\\Invoice\\Invoice\\Invoice.Domain\\Invoice.Domain.csproj",
+        "projectPath": "C:\\Repositories\\dotnet-core-mvc-invoice\\Invoice\\Invoice.Domain\\Invoice.Domain.csproj",
         "packagesPath": "C:\\Users\\Janusz Soft\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Janusz Soft\\Desktop\\Invoice\\Invoice\\Invoice.Domain\\obj\\",
+        "outputPath": "C:\\Repositories\\dotnet-core-mvc-invoice\\Invoice\\Invoice.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",

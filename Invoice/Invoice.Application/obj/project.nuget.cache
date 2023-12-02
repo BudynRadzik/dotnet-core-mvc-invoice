@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rhyl2Jp6NZSZKw2zvRc5dB2YZwONwYQr76p9I/t3xjGAlZB2kYYb3hFMhXuWpfUAEiwZAZBhaYAzQ/Wl1pYc3Q==",
+  "dgSpecHash": "H4FBq6EyjEd58ej7XR7/mdbBWXANwWgS0/apht59wFCSqKeRVMn+elKZRkKvAw2VaU8oK7pZhah4MsfJjrcKsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Janusz Soft\\Desktop\\Invoice\\Invoice\\Invoice.Application\\Invoice.Application.csproj",
+  "projectFilePath": "C:\\Repositories\\dotnet-core-mvc-invoice\\Invoice\\Invoice.Application\\Invoice.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
