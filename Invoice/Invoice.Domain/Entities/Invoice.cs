@@ -14,7 +14,7 @@ namespace Invoice.Domain.Entities
         public string AccountNumber { get; set; } = default!;
         public string Signature { get; set; } = default!;
         public Company Companies { get; set; } = default!;
-        public CompanyContactDetails CompanyContactDetails { get; set; } = default!;
+       
 
     }
 }

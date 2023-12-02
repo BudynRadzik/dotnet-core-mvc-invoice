@@ -34,3 +34,39 @@ C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice\bin\Debug\net7.0\Invoice.Do
 C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice\bin\Debug\net7.0\Invoice.Application.pdb
 C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice\bin\Debug\net7.0\Invoice.Domain.pdb
 C:\Users\Janusz Soft\Desktop\Invoice\Invoice\Invoice\obj\Debug\net7.0\Invoice.MVC.csproj.CopyComplete
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\Invoice.MVC.csproj.AssemblyReference.cache
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\Invoice.MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\Invoice.MVC.AssemblyInfoInputs.cache
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\Invoice.MVC.AssemblyInfo.cs
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\Invoice.MVC.csproj.CoreCompileInputs.cache
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\Invoice.MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\Invoice.MVC.RazorAssemblyInfo.cache
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\Invoice.MVC.RazorAssemblyInfo.cs
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\Invoice.MVC.dll
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\refint\Invoice.MVC.dll
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\Invoice.MVC.pdb
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\appsettings.Development.json
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\appsettings.json
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\Invoice.MVC.staticwebassets.runtime.json
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\Invoice.MVC.exe
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\Invoice.MVC.deps.json
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\Invoice.MVC.runtimeconfig.json
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\Invoice.MVC.dll
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\Invoice.MVC.pdb
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\Invoice.Application.dll
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\Invoice.Domain.dll
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\Invoice.Application.pdb
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\Invoice.Domain.pdb
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\staticwebassets\msbuild.Invoice.MVC.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\staticwebassets\msbuild.build.Invoice.MVC.props
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Invoice.MVC.props
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Invoice.MVC.props
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\staticwebassets.build.json
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\staticwebassets.development.json
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\scopedcss\bundle\Invoice.MVC.styles.css
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\scopedcss\projectbundle\Invoice.MVC.bundle.scp.css
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\Invoice.MVC.csproj.CopyComplete
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\Invoice.MVC.genruntimeconfig.cache
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\obj\Debug\net7.0\ref\Invoice.MVC.dll

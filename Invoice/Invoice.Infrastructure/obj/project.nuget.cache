@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lQRzg9qlHdLkMglI3FW6PmmMdsJOsKYbYFczcDhzBSKnE+mx8blK4ItG/TTHfqGA3bA1FeTJ1gtX5duse6a3Pg==",
+  "dgSpecHash": "63NJ1fePh9Jab+zykrF6NBx2wTrCz/pmIP3oGjU2e9uZqKWLgVtgIgxUjA6s2XBZwEel6mY1m6/Vjx2ayvuKGA==",
   "success": true,
   "projectFilePath": "C:\\Repositories\\dotnet-core-mvc-invoice\\Invoice\\Invoice.Infrastructure\\Invoice.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,7 @@
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.2\\microsoft.entityframeworkcore.analyzers.7.0.2.nupkg.sha512",
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.2\\microsoft.entityframeworkcore.design.7.0.2.nupkg.sha512",
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.2\\microsoft.entityframeworkcore.relational.7.0.2.nupkg.sha512",
-    "C:\\Users\\Janusz Soft\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.0\\microsoft.entityframeworkcore.sqlserver.7.0.0.nupkg.sha512",
+    "C:\\Users\\Janusz Soft\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.2\\microsoft.entityframeworkcore.sqlserver.7.0.2.nupkg.sha512",
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.2\\microsoft.entityframeworkcore.tools.7.0.2.nupkg.sha512",
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",

@@ -8,9 +8,10 @@ namespace Invoice.Domain.Entities
 {
     public class CompanyContactDetails
     {
-        public string City { get; set; } = default!;
-        public string Street { get; set; } = default!;
-        public string PostalCode { get; set; }= default!;
-        public string PhoneNumber { get; set; } = default!;
+         
+        public string? City { get; set; } 
+        public string? Street { get; set; } 
+        public string? PostalCode { get; set; }
+        public string? PhoneNumber { get; set; } 
     }
 }
