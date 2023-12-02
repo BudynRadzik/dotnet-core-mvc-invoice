@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Invoice.Infrastructure.Migrations
 {
     [DbContext(typeof(InvoiceDbContext))]
-    [Migration("20231202185123_Init")]
+    [Migration("20231202202232_Init")]
     partial class Init
     {
         /// <inheritdoc />
@@ -77,6 +77,41 @@ namespace Invoice.Infrastructure.Migrations
                     b.HasIndex("CompaniesId");
 
                     b.ToTable("Invoices");
+                });
+
+            modelBuilder.Entity("Invoice.Domain.Entities.Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<double>("GrossPrice")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("NetPrice")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Quantity")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Tax")
+                        .HasColumnType("float");
+
+                    b.Property<double>("TaxValue")
+                        .HasColumnType("float");
+
+                    b.Property<double>("UnitPrice")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Invoice.Domain.Entities.Company", b =>
