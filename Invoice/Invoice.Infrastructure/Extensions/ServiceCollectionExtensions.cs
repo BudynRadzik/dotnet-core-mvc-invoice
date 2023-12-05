@@ -1,4 +1,5 @@
 ﻿using Invoice.Infrastructure.Persistence;
+using Invoice.Infrastructure.Seeder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -17,7 +18,7 @@ namespace Invoice.Infrastructure.Extensions
             services.AddDbContext<InvoiceDbContext>(options => options.UseSqlServer(
                 configuration.GetConnectionString("Invoice")));
 
-
+            services.AddScoped<InvoiceSeeder>();
         }
     }
 }

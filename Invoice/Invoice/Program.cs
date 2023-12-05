@@ -1,5 +1,6 @@
 using Invoice.Infrastructure.Extensions;
 using Invoice.Infrastructure.Persistence;
+using Invoice.Infrastructure.Seeder;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,7 +11,9 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 
 var app = builder.Build();
-
+var scope = app.Services.CreateScope();
+var seeder = scope.ServiceProvider.GetRequiredService<InvoiceSeeder>();
+await seeder.Seed();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
