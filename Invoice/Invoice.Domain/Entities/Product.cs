@@ -8,7 +8,7 @@ namespace Invoice.Domain.Entities
 {
     public class Product
     {
-        public required int Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; } = default!;
         public double Tax { get; set; } = default!;
         public double UnitPrice { get; set; } = default!;

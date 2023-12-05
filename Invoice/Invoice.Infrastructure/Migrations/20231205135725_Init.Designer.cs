@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Invoice.Infrastructure.Migrations
 {
     [DbContext(typeof(InvoiceDbContext))]
-    [Migration("20231202202232_Init")]
+    [Migration("20231205135725_Init")]
     partial class Init
     {
         /// <inheritdoc />
@@ -43,7 +43,7 @@ namespace Invoice.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Company");
+                    b.ToTable("Companies");
                 });
 
             modelBuilder.Entity("Invoice.Domain.Entities.Invoice", b =>
@@ -58,9 +58,6 @@ namespace Invoice.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("CompaniesId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
@@ -73,8 +70,6 @@ namespace Invoice.Infrastructure.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CompaniesId");
 
                     b.ToTable("Invoices");
                 });
@@ -135,7 +130,7 @@ namespace Invoice.Infrastructure.Migrations
 
                             b1.HasKey("CompanyId");
 
-                            b1.ToTable("Company");
+                            b1.ToTable("Companies");
 
                             b1.WithOwner()
                                 .HasForeignKey("CompanyId");
@@ -143,17 +138,6 @@ namespace Invoice.Infrastructure.Migrations
 
                     b.Navigation("ContactDetails")
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Invoice.Domain.Entities.Invoice", b =>
-                {
-                    b.HasOne("Invoice.Domain.Entities.Company", "Companies")
-                        .WithMany()
-                        .HasForeignKey("CompaniesId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Companies");
                 });
 #pragma warning restore 612, 618
         }
