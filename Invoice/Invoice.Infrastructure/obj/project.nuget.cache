@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "63NJ1fePh9Jab+zykrF6NBx2wTrCz/pmIP3oGjU2e9uZqKWLgVtgIgxUjA6s2XBZwEel6mY1m6/Vjx2ayvuKGA==",
+  "dgSpecHash": "UC/2ROcZbVGReyViwzZRuV+nBUz060uWcM255qZfG2ZY8pCuTPDhyCm7JDmKL0lu4b/+w3cTrW7B9RSUGzYwJg==",
   "success": true,
   "projectFilePath": "C:\\Repositories\\dotnet-core-mvc-invoice\\Invoice\\Invoice.Infrastructure\\Invoice.Infrastructure.csproj",
   "expectedPackageFiles": [

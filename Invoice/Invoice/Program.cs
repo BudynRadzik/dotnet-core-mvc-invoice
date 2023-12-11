@@ -1,3 +1,4 @@
+using Invoice.Application.Extensions;
 using Invoice.Infrastructure.Extensions;
 using Invoice.Infrastructure.Persistence;
 using Invoice.Infrastructure.Seeder;
@@ -8,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddInfrastructure(builder.Configuration);
-
+builder.Services.AddApplication();
 
 var app = builder.Build();
 var scope = app.Services.CreateScope();

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "H4FBq6EyjEd58ej7XR7/mdbBWXANwWgS0/apht59wFCSqKeRVMn+elKZRkKvAw2VaU8oK7pZhah4MsfJjrcKsA==",
+  "dgSpecHash": "bTUw9vdbZkeIIyuJ5z8IADvJvTFQ5l3wS5vmDAIC9Q7XyPwqfknD/RYVEvoQapaUVk+eack1vz/oIX/lCuCtoA==",
   "success": true,
   "projectFilePath": "C:\\Repositories\\dotnet-core-mvc-invoice\\Invoice\\Invoice.Application\\Invoice.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Janusz Soft\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
