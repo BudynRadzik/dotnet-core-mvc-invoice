@@ -1,5 +1,6 @@
 ﻿using Invoice.Domain.Interfaces;
 using Invoice.Infrastructure.Persistence;
+using Invoice.Infrastructure.Repositories;
 using Invoice.Infrastructure.Seeder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -21,7 +22,7 @@ namespace Invoice.Infrastructure.Extensions
 
             services.AddScoped<InvoiceSeeder>();
 
-            services.AddScoped<IInvoiceRepository, IInvoiceRepository>();
+            services.AddScoped<IInvoiceRepository, InvoiceRepository>();
         }
     }
 }

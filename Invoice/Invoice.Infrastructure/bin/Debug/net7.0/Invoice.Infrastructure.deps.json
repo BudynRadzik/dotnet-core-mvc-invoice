@@ -672,7 +672,8 @@
       },
       "Invoice.Application/1.0.0": {
         "dependencies": {
-          "Invoice.Domain": "1.0.0"
+          "Invoice.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "runtime": {
           "Invoice.Application.dll": {}

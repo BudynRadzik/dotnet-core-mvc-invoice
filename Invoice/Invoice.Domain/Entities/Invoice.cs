@@ -10,8 +10,9 @@ namespace Invoice.Domain.Entities
     {
         public int Id { get; set; }
         public DateTime CreatedAt { get; set; }= DateTime.Now;
-        public string Place { get; set; } = default!;
-        public string AccountNumber { get; set; } = default!;
-        public string Signature { get; set; } = default!;
+        public string? Place { get; set; } 
+        public string? AccountNumber { get; set; } 
+        public string? Signature { get; set; } 
+
     }
 }

@@ -11,6 +11,7 @@ namespace Invoice.Application.Services
         }
         public async Task Create(Domain.Entities.Invoice invoice)
         {
+            
             await _invoiceRepository.Create(invoice);
         }
     }

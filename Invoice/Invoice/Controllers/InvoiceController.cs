@@ -11,6 +11,12 @@ namespace Invoice.MVC.Controllers
             _invoiceService = invoiceService;
         }
 
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+
         [HttpPost]
         public async Task <IActionResult> Create(Domain.Entities.Invoice invoice)
         {
