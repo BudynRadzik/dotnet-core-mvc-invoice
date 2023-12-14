@@ -1,7 +1,9 @@
-﻿namespace Invoice.Application.Services
+﻿using Invoice.Application.Invoice;
+
+namespace Invoice.Application.Services
 {
     public interface IInvoiceService
     {
-        Task Create(Domain.Entities.Invoice invoice);
+        Task Create(InvoiceDto invoice);
     }
 }

@@ -115,3 +115,5 @@ C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\Microso
 C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\System.CodeDom.dll
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\AutoMapper.dll
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

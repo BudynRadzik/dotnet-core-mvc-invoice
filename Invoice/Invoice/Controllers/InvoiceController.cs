@@ -1,4 +1,5 @@
-﻿using Invoice.Application.Services;
+﻿using Invoice.Application.Invoice;
+using Invoice.Application.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Invoice.MVC.Controllers
@@ -18,7 +19,7 @@ namespace Invoice.MVC.Controllers
 
 
         [HttpPost]
-        public async Task <IActionResult> Create(Domain.Entities.Invoice invoice)
+        public async Task <IActionResult> Create(InvoiceDto invoice)
         {
             await _invoiceService.Create(invoice);
             return RedirectToAction(nameof(Create)); // tutaj kontynuacja jak zrobie widok
