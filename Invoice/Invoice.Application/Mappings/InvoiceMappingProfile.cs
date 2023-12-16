@@ -16,9 +16,13 @@ namespace Invoice.Application.Mappings
                 .ForMember(e => e.Place, opt => opt.MapFrom(src => src.Place))
                 .ForMember(a => a.AccountNumber, ac => ac.MapFrom(acc => acc.AccountNumber))
                 .ForMember(s => s.Signature, si => si.MapFrom(sig => sig.Signature));
-              
-        
+
+            CreateMap<Domain.Entities.Invoice, InvoiceDto>();
+                //mapowanie  od uzytkownika do bazydanych
+
+            
         }
+        
     }
 }
 // mapowanie sluży do pobierania danych wysylanych przez użytkownika do bazy, niekoniecznie wszystkie

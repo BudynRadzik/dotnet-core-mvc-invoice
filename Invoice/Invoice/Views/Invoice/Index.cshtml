@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Invoice.Application.Invoice.InvoiceDto>
+
+@{
+    ViewData["Title"] = "Moje Faktury";
+}
+
+<h1>Moje Faktury</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Place)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.AccountNumber)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Signature)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            
+            
+@foreach (var item in Model) {
+        <tr class="table-default">
+            <td>
+                @Html.DisplayFor(modelItem => item.Place)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Signature)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

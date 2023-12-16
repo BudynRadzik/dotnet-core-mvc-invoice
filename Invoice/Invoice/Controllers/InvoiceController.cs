@@ -11,6 +11,11 @@ namespace Invoice.MVC.Controllers
         {
             _invoiceService = invoiceService;
         }
+        public  async Task<IActionResult> Index()
+        {
+            var invoices = await _invoiceService.GetAll();
+            return View(invoices);
+        }
 
         public IActionResult Create()
         {
@@ -22,7 +27,7 @@ namespace Invoice.MVC.Controllers
         public async Task <IActionResult> Create(InvoiceDto invoice)
         {
             await _invoiceService.Create(invoice);
-            return RedirectToAction(nameof(Create)); // tutaj kontynuacja jak zrobie widok
+            return RedirectToAction(nameof(Index)); 
         }
 
     }

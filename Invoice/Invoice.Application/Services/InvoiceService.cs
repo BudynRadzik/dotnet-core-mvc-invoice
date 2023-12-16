@@ -18,5 +18,12 @@ namespace Invoice.Application.Services
             var invoice = _mapper.Map<Domain.Entities.Invoice>(invoiceDto);
             await _invoiceRepository.Create(invoice);
         }
+
+        public async Task<IEnumerable<InvoiceDto>> GetAll()
+        {
+            var invoices = await _invoiceRepository.GetAll();
+            var dtos =_mapper.Map<IEnumerable<InvoiceDto>>(invoices);
+            return dtos;    
+        }
     }
 }

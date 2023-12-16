@@ -1,5 +1,6 @@
 ﻿using Invoice.Domain.Interfaces;
 using Invoice.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace Invoice.Infrastructure.Repositories
 {
@@ -15,5 +16,9 @@ namespace Invoice.Infrastructure.Repositories
             _dbContext.Add(invoice);
             await _dbContext.SaveChangesAsync();
         }
+
+        public async Task<IEnumerable<Domain.Entities.Invoice>> GetAll()
+        =>await _dbContext.Invoices.ToListAsync();
+
     }
 }

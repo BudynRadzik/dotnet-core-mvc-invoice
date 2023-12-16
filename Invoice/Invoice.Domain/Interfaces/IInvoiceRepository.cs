@@ -9,5 +9,6 @@ namespace Invoice.Domain.Interfaces
     public interface IInvoiceRepository
     {
         Task Create(Domain.Entities.Invoice invoice);
+        Task<IEnumerable<Domain.Entities.Invoice>> GetAll();
     }
 }
