@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Q1tCFVOVuuqQphnoufcez2hck3plP2NANfpj2VBgo9Ui42ghwm9eyF2cIZ9dhmkd1a4hKMa9IZ3CTieAZbztQg==",
+  "dgSpecHash": "425iENMpNIMnDv/clBbW4gmFihEzhtE7TriDzfL8KUAPiAk68JqOZeC6zJUWu0MyDv0r2z04E3b/iuUolj/7Ug==",
   "success": true,
   "projectFilePath": "C:\\Repositories\\dotnet-core-mvc-invoice\\Invoice\\Invoice.Infrastructure\\Invoice.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,9 @@
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Janusz Soft\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\Janusz Soft\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Janusz Soft\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

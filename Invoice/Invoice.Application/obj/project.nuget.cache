@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "XY/C+Yhwiz9AvWT6FnS6m35eUwOCQMXfPsJk1BJbnr6S9Z+cHmy7y/ZYzEnUs7klNgZV6yN6cltzKD9R6WV9Iw==",
+  "dgSpecHash": "kZe/emCp1MSnDQQvXea3yDwhWIM4tsm3ItGD8HocfLg/+ceksx9UDFA45vTCJK2Nnv0uUGKRw8YhbqvcPJbX1g==",
   "success": true,
   "projectFilePath": "C:\\Repositories\\dotnet-core-mvc-invoice\\Invoice\\Invoice.Application\\Invoice.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Janusz Soft\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\Janusz Soft\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Janusz Soft\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Janusz Soft\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
