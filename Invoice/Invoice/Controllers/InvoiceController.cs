@@ -1,19 +1,21 @@
-﻿using Invoice.Application.Invoice;
-using Invoice.Application.Services;
+﻿using Invoice.Application.Invoice.Commands.CreateInvoice;
+using Invoice.Application.Invoice.Queries.GetAllInvoices;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Invoice.MVC.Controllers
 {
     public class InvoiceController : Controller
-    { 
-        private readonly IInvoiceService _invoiceService;
-        public InvoiceController(IInvoiceService invoiceService) 
+    {
+        private readonly IMediator _mediator;
+
+        public InvoiceController(IMediator mediator) 
         {
-            _invoiceService = invoiceService;
+            _mediator = mediator;
         }
         public  async Task<IActionResult> Index()
         {
-            var invoices = await _invoiceService.GetAll();
+            var invoices = await _mediator.Send(new GetAllInvoicesQuery());
             return View(invoices);
         }
 
@@ -24,9 +26,9 @@ namespace Invoice.MVC.Controllers
 
 
         [HttpPost]
-        public async Task <IActionResult> Create(InvoiceDto invoice)
+        public async Task <IActionResult> Create(CreateInvoiceCommand command)
         {
-            await _invoiceService.Create(invoice);
+            await _mediator.Send(command);
             return RedirectToAction(nameof(Index)); 
         }
 

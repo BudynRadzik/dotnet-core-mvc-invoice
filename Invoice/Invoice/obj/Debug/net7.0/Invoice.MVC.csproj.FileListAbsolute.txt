@@ -295,3 +295,6 @@ C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\runtime
 C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\MediatR.dll
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\Repositories\dotnet-core-mvc-invoice\Invoice\Invoice\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

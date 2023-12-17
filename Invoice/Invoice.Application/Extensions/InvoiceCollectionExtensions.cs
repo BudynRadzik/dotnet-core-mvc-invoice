@@ -1,11 +1,7 @@
-﻿using Invoice.Application.Mappings;
-using Invoice.Application.Services;
+﻿using Invoice.Application.Invoice.Commands.CreateInvoice;
+using Invoice.Application.Mappings;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Invoice.Application.Extensions
 {
@@ -13,7 +9,7 @@ namespace Invoice.Application.Extensions
     {
         public static void AddApplication(this IServiceCollection services)
         {
-            services.AddScoped<IInvoiceService, InvoiceService>();
+            services.AddMediatR(typeof(CreateInvoiceCommand));
             services.AddAutoMapper(typeof(InvoiceMappingProfile));
         }
     }
