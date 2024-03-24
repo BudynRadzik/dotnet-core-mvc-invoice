@@ -7,20 +7,22 @@
 <h1>Moje Faktury</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create"class="btn btn-warning">Nowy Dokument</a>
 </p>
-<table class="table table-hover">
+<table class="table table-striped table-bordered">
     <thead>
         <tr>
             
             <th scope="col">
-                @Html.DisplayNameFor(model => model.Place)
+                @Html.DisplayNameFor(model => model.Signature)
             </th>
+           
+            
             <th scope="col">
                 @Html.DisplayNameFor(model => model.AccountNumber)
             </th>
             <th scope="col">
-                @Html.DisplayNameFor(model => model.Signature)
+                @Html.DisplayNameFor(model => model.Place)
             </th>
             <th></th>
         </tr>
@@ -30,15 +32,15 @@
             
             
 @foreach (var item in Model) {
-        <tr class="table-default">
+        <tr class="table-default ">
             <td>
-                @Html.DisplayFor(modelItem => item.Place)
+                @Html.DisplayFor(modelItem => item.Signature)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.AccountNumber)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Signature)
+                @Html.DisplayFor(modelItem => item.Place)
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |

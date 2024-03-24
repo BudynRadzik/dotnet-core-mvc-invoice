@@ -28,6 +28,10 @@ namespace Invoice.MVC.Controllers
         [HttpPost]
         public async Task <IActionResult> Create(CreateInvoiceCommand command)
         {
+            if(!ModelState.IsValid)
+            {
+                return View(command);
+            }
             await _mediator.Send(command);
             return RedirectToAction(nameof(Index)); 
         }
